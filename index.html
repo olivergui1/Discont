@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <script src="script.js"></script>
+    <title>Desconto</title>
+</head>
+
+<body>
+    <div class="intro">
+        <p>Descontos acima de 30R$</p>
+        <h4>Calcule o desconto do seu carrinho</h4>
+    </div>
+
+    <div class="calc">
+        <p>Valor original: R$<input id="valorOriginal" placeholder="Digite aqui..."></input></p>
+
+        <p>Porcentagem de desconto: <span id="porcentagemDesconto">10</span>%</p>
+
+        <button onclick="calcularDesconto()">Calcular Desconto</button>
+
+        <p>Valor com desconto: R$<span id="resultadoDesconto"></span></p>
+    </div>
+    
+</body>
+
+</html>
